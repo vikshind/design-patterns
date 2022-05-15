@@ -9,11 +9,11 @@ Sometimes object creation is not simple task. It could be complex process. In ot
 
 These design patterns deal with creation of classes or objects. Moreover, It helps to increase re-usability and flexibility of the code.
 
-* Abstract Factory
-* Builder
-* Factory Method
-* Prototype
-* Singleton
+* Singleton - Exactly one instance is present. Therefore, entire application uses the same object
+* Prototype - Copy from existing product and make changes if required
+* Factory Method - Create different objects according to request
+* Abstract Factory - Create different factory according to request. Also called as factory of factory
+* Builder - Helps to create object step by step
 
 ### Structural
 Structural design patterns are used to design the class structure and architecture.
@@ -24,20 +24,13 @@ Many times we come across a scenario where we have incompatible objects.For inst
 
 Likewise, assume that we have java code for MySQL database but we have Oracle database. In such cases we need to create some small project. This project will help both of them communicate. This solution can be called as Java Structural design pattern implementation.
 
-* Adapter
-  Provides the solution for helping incompatible things to communicate with each other
-* Bridge
-  Separates things so that they can work independently as well
-* Composite
-  Allows to operate objects in a tree structure hierarchy
-* Decorator
-  Allows to add new functionality to existing object
-* Facade
-  Provide the simple interface to use many small systems. Additionally, hides the complexity by wrapping the different process. We can use without knowing each process
-* Flyweight
-  Allows to reuse the object if available otherwise create new and store in memory
-* Proxy
-  Represents the functionality of other object. Protect original object from direct access to prevent damage
+* Adapter - Provides the solution for helping incompatible things to communicate with each other
+* Bridge - Separates things so that they can work independently as well
+* Composite - Allows to operate objects in a tree structure hierarchy
+* Decorator - Allows to add new functionality to existing object
+* Facade - Provide the simple interface to use many small systems. Additionally, hides the complexity by wrapping the different process. We can use without knowing each process
+* Flyweight - Allows to reuse the object if available otherwise create new and store in memory
+* Proxy - Represents the functionality of other object. Protect original object from direct access to prevent damage
 
 ### Behavioral
 
